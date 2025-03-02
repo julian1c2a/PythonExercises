@@ -88,7 +88,7 @@ if __name__ == '__main__':
     print ( " -------------- NUMEROS DE BERNOULLI EXACTOS ------------- " )
     print ( " --------------------------------------------------------- " )
 
-    lista_de_numeros_de_Bernoulli = calc_bernoulli_list ( 12 )
+    lista_de_numeros_de_Bernoulli = calc_bernoulli_list ( 21 )
     for ix in range ( 0, len ( lista_de_numeros_de_Bernoulli ) ):
         if lista_de_numeros_de_Bernoulli[ix] != Fract ( 0, 1 ):
             print ( f"Bernoulli[{ix}]  =  {lista_de_numeros_de_Bernoulli[ix]}" )
