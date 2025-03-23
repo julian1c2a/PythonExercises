@@ -30,6 +30,8 @@ lib
 lib/*
 ./*~
 *~
+./*.cfg
+*.cfg
 nppBackup
 ./nppBackup
 nppBackup/*
